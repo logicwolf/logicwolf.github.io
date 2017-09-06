@@ -9,18 +9,18 @@
     
         <meta name="keywords" content="Blog,Hexo" />
     
-    <meta name="description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick Start신규 Post 작성1$ hexo new &quot;My New Post&quot; More info: Writing 서버 실행1$ hexo server 작성한 Post를 실제 deploy 하기 전에 테스트 해볼 수">
+    <meta name="description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick StartHexo는 node.js 기반이고, git을 통해 배포가 된다.따라서 아래의 항목이 설치 되어 있어야 한다.  node.js git  Hexo CLI 설치 및 블로그 생성1234$ npm inst">
 <meta name="keywords" content="Blog,Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 기본 명령어">
 <meta property="og:url" content="https://logicwolf.github.io/2017/09/04/Hexo-Basic-Command/index.html">
 <meta property="og:site_name" content="Jae-Hwan&#39;s IT Blog">
-<meta property="og:description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick Start신규 Post 작성1$ hexo new &quot;My New Post&quot; More info: Writing 서버 실행1$ hexo server 작성한 Post를 실제 deploy 하기 전에 테스트 해볼 수">
+<meta property="og:description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick StartHexo는 node.js 기반이고, git을 통해 배포가 된다.따라서 아래의 항목이 설치 되어 있어야 한다.  node.js git  Hexo CLI 설치 및 블로그 생성1234$ npm inst">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-09-03T17:14:18.410Z">
+<meta property="og:updated_time" content="2017-09-06T16:24:52.706Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 기본 명령어">
-<meta name="twitter:description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick Start신규 Post 작성1$ hexo new &quot;My New Post&quot; More info: Writing 서버 실행1$ hexo server 작성한 Post를 실제 deploy 하기 전에 테스트 해볼 수">
+<meta name="twitter:description" content="다음은 Hexo Framework을 이용한 블로그 생성시 필요한 필수 명령이다.좀 더 자세한 내용은 다음 documentation을 참고한다. Quick StartHexo는 node.js 기반이고, git을 통해 배포가 된다.따라서 아래의 항목이 설치 되어 있어야 한다.  node.js git  Hexo CLI 설치 및 블로그 생성1234$ npm inst">
     
 
     
@@ -168,7 +168,13 @@
         
         <div class="article-entry" itemprop="articleBody">
             <p>다음은 <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> Framework을 이용한 블로그 생성시 필요한 필수 명령이다.<br>좀 더 자세한 내용은 다음 <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a>을 참고한다.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="신규-Post-작성"><a href="#신규-Post-작성" class="headerlink" title="신규 Post 작성"></a>신규 Post 작성</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>Hexo는 <a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a> 기반이고, git을 통해 배포가 된다.<br>따라서 아래의 항목이 설치 되어 있어야 한다.</p>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></li>
+<li><a href="https://git-scm.com/" target="_blank" rel="external">git</a></li>
+</ul>
+<h3 id="Hexo-CLI-설치-및-블로그-생성"><a href="#Hexo-CLI-설치-및-블로그-생성" class="headerlink" title="Hexo CLI 설치 및 블로그 생성"></a>Hexo CLI 설치 및 블로그 생성</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ hexo init blog</div><div class="line">$ <span class="built_in">cd</span> blogs</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<h3 id="신규-Post-작성"><a href="#신규-Post-작성" class="headerlink" title="신규 Post 작성"></a>신규 Post 작성</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="서버-실행"><a href="#서버-실행" class="headerlink" title="서버 실행"></a>서버 실행</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>작성한 Post를 실제 deploy 하기 전에 테스트 해볼 수 있는 명령이며, 사용하는 브라우져에 아래의 주소를 입력하여 결과물을 확인 할 수 있다.<br><a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
@@ -184,7 +190,7 @@
 
 
 
-    <a data-url="https://logicwolf.github.io/2017/09/04/Hexo-Basic-Command/" data-id="cj74zrev70002duouzzygfp77" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://logicwolf.github.io/2017/09/04/Hexo-Basic-Command/" data-id="cj798256y0000jqou90fe8zut" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
